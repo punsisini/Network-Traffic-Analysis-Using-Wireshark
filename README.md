@@ -31,7 +31,11 @@ I observed how domain names are translated into IP addresses.
 ---
 
 ### TCP Analysis
-I analyzed TCP packets and observed the 3-way handshake (SYN, SYN-ACK, ACK).
+I captured and analyzed TCP packets in Wireshark and observed the 3-way handshake process used to establish a connection.
+The handshake consists of:
+- SYN (client initiates connection)
+- SYN-ACK (server acknowledges)
+- ACK (client confirms)
 
 ![TCP](tcp.png)
 
