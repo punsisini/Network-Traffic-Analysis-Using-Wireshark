@@ -1,6 +1,6 @@
 # Network Traffic Analysis Using Wireshark (Ubuntu Lab)
 
-## Overview
+# Overview
 This project demonstrates a hands-on network traffic analysis lab conducted using Wireshark in an Ubuntu virtual machine environment.
 The goal of this lab was to capture real network traffic and understand how common network protocols operate in real-world communication. Instead of relying only on theory, I generated live traffic using tools such as web browsing, ping, and curl, and then analyzed the packet-level behavior.
 During this process, I explored how DNS resolves domain names, how TCP establishes reliable connections using the 3-way handshake, and how HTTP and HTTPS traffic differ in terms of visibility and security.
